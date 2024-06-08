@@ -1,0 +1,64 @@
+{
+    "conseils": [
+        {
+            "id": 1,
+            "tip": "Définissez des objectifs clairs chaque jour",
+            "details": "Cela vous donne une direction et vous aide à rester concentré sur ce qui est important. Essayez de définir des objectifs SMART (Spécifiques, Mesurables, Atteignables, Réalistes, Temporellement définis)."
+        },
+        {
+            "id": 11,
+            "tip": "Cosmo, la mascotte d'hexagone",
+            "details": "En vrai de vrai cosmo c'est une dinguerie, sur 3 apparitions au campus il a déjà essayé de me morde (pour jouer, mais j'ai eu peur), vomi par terre et il a voulu manger ma pomme c'est une dinguerie de faire ça. c'est vraiment un fou ce mec mais tranquille il est mignon et il se laisse faire papouiller. ♥♥♥"
+        },
+        {
+            "id": 3,
+            "tip": "Évitez les distractions autant que possible",
+            "details": "Éteignez les notifications sur votre téléphone et votre ordinateur pendant que vous travaillez. Si possible, travaillez dans un environnement calme et sans distractions."
+        },
+        {
+            "id": 4,
+            "tip": "Prenez des pauses régulières pour éviter l'épuisement",
+            "details": "La technique Pomodoro suggère de travailler pendant 25 minutes, puis de prendre une pause de 5 minutes. Après quatre cycles de travail, prenez une pause plus longue de 15 à 30 minutes."
+        },
+        {
+            "id": 5,
+            "tip": "Gardez votre espace de travail organisé",
+            "details": "Un espace de travail désordonné peut être une source de distraction et de stress. Essayez de garder votre espace de travail aussi propre et organisé que possible."
+        },
+        {
+            "id": 6,
+            "tip": "Utilisez des outils de gestion du temps comme la technique Pomodoro",
+            "details": "La technique Pomodoro est une méthode de gestion du temps qui utilise un timer pour diviser le travail en intervalles, traditionnellement de 25 minutes de travail, suivis par une pause de 5 minutes."
+        },
+        {
+            "id": 7,
+            "tip": "Déléguer les tâches qui peuvent être effectuées par d'autres",
+            "details": "Cela vous permet de vous concentrer sur les tâches qui nécessitent votre expertise. La délégation efficace peut également aider à développer les compétences de votre équipe."
+        },
+        {
+            "id": 8,
+            "tip": "Maintenez une alimentation saine et faites de l'exercice régulièrement",
+            "details": "Une bonne santé physique peut contribuer à une bonne santé mentale et à une meilleure concentration. Essayez de manger une alimentation équilibrée et de faire de l'exercice régulièrement."
+        },
+        {
+            "id": 9,
+            "tip": "Dormez suffisamment pour rester alerte et concentré",
+            "details": "La plupart des adultes ont besoin de 7 à 9 heures de sommeil par nuit. Essayez de vous coucher et de vous lever à des heures régulières. Évitez les écrans avant de vous coucher pour améliorer la qualité de votre sommeil."
+        },
+        {
+            "id": 10,
+            "tip": "Apprenez à dire non aux tâches qui ne contribuent pas à vos objectifs",
+            "details": "Cela vous permet de vous concentrer sur ce qui est vraiment important. Dire non peut être difficile, mais c'est une compétence essentielle pour gérer efficacement votre temps."
+        },
+        {
+            "id": 11,
+            "tip": "Priorisez vos tâches en fonction de leur importance et de leur urgence",
+            "details": "Utilisez la matrice Eisenhower pour déterminer quelles tâches sont les plus importantes et les plus urgentes. Cette matrice divise les tâches en quatre catégories : important et urgent, important mais pas urgent, pas important mais urgent, pas important et pas urgent."
+        },
+        {
+            "id": 12,
+            "tip": "Évitez les distractions numériques",
+            "details": "Les notifications constantes de votre téléphone ou de votre ordinateur peuvent être une source majeure de distraction. Essayez de désactiver les notifications non essentielles et de définir des périodes spécifiques pour vérifier vos emails et vos messages."
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+/* style global */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #efefef;
+    padding: 20px;
+    background-image: url("./images/fond.png");
+    background-attachment: fixed;
+}
+
+/* style noms des catégories */
+.categoryName {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* couleur différents pour chaque catégorie */
+.Cartes a {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #2CB9E6;
+}
+
+.Fiches a{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FF6D83;
+}
+
+.Notes a{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FC963F;
+}
+        /* fin style catégories */
+
+
+ /* style noms catégories RESPONSIVE */
+.categoryNameResponsive {
+    display: none;
+}
+
+/* couleur pour chaque catégorie */
+.CM a{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #2CB9E6;
+}
+
+.FR a{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FF6D83;
+}
+
+.NC a{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FC963F;
+}
+        /* fin style catégories RESPONSIVE */
+
+
+/* style des leçons */
+.lessonCM, .lessonFR, .lessonNC {
+    flex-basis: calc(25% - 20px);
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    align-items: center;
+}
+
+/* couleur pour chaque catégorie */
+.lessonCM {
+    border-left: 10px solid #2CB9E6;
+}
+
+.lessonFR {
+    border-left: 10px solid #FF6D83;
+}
+
+.lessonNC {
+    border-left: 10px solid #FC963F;
+}
+
+/* style des images uploads */
+.cartesMentales img, .fichesRevisions img, .notesCours img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+/* style des icônes "supprimer" et "modifier" et emplacements*/
+.deleteLesson img, .editLesson img{
+    width: 30px;
+    position: absolute;
+    top: 10px;
+}
+
+.deleteLesson img {
+    right: 10px;
+}
+
+.editLesson img {
+    right: 50px;
+}
+
+.favorite img {
+    right: 90px;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 1250px) {
+    .lessonCM, .lessonFR, .lessonNC {
+        width: 500px;
+        margin-left: 100px;
+    }
+
+    .categoryName {
+        gap: 50px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 960px) {
+    .categoryName {
+        margin-top: 70px;
+    }
+}
+    
+
+
+@media screen and (max-width: 775px) {
+    .lessonCM, .lessonFR, .lessonNC {
+        width: 250px;
+        margin-left: 0;
+    }
+
+    .categoryName {
+        display: none;
+    }
+
+    .categoryNameResponsive {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    
+}
